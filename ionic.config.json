@@ -1,0 +1,7 @@
+{
+  "name": "stacked-sample",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
