@@ -3,11 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "build": "ionic build",
     "start": "ionic serve",
-    "build": "ionic build"
+    "start:ios": "ionic capacitor run ios --livereload"
   },
   "dependencies": {
     "@capacitor/core": "1.5.0",
+    "@capacitor/ios": "^1.5.0",
     "@ionic/react": "^5.0.0-rc.3",
     "@ionic/react-router": "^5.0.0-rc.3",
     "ionicons": "^5.0.0",
